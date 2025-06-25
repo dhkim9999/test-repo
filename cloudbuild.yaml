@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'bash'
+    args: ['-c', 'echo "Hello, Cloud Build! Trigger 성공"']
+
